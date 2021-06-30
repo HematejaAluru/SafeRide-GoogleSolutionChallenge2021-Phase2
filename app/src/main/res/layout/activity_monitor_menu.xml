@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newgradient3"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.callback.drowsiness.monitor_menu">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionChangeContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        app:borderWidth="0dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_baseline_add"
+        android:backgroundTint="#f45657"
+        app:fabSize="normal"
+        android:visibility="invisible"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="96dp"
+        android:width="250dp"
+        android:paddingTop="60dp"
+        android:text=""
+        android:textSize="16dp"
+        android:visibility="invisible"
+        android:textColor="#f1303f" />
+
+    <TextView
+        android:id="@+id/txtcurrentlocation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-50dp"
+        android:width="250dp"
+        android:layout_marginBottom="50dp"
+        android:text=""
+        android:visibility="invisible"
+        android:textColor="#f1303f"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtcurrentlocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcurrentlocation1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="20dp"
+        android:width="250dp"
+        android:visibility="invisible"
+        android:text=""
+        android:textColor="#f1303f"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/alarm_will_invoke_after"
+        android:id="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:textColor="#f1303f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView21"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:textColor="#f1303f"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Button" />
+
+
+    <TextView
+        android:id="@+id/fstTxt"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="103dp"
+        android:text="Mobile No" />
+
+
+    <EditText
+        android:id="@+id/Filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="21dp"
+        android:visibility="invisible"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/secTxt"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:layout_marginLeft="100dp" />
+
+    <EditText
+        android:id="@+id/msgTxt"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="63dp"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/stopsending"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="63dp"
+        android:text="Send SMS" />
+
+    <ImageView
+        android:id="@+id/mainicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/l"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_height="180dp"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="false"
+        android:focusable="true"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp">
+    <!--
+    slideranimation duration is to set duration for transition between two slides
+    sliderautocycledirection is to set animationbetween transition of your slides
+    sliderindicator enables is used to display the indicators for slider
+    slider indicator gravity is to set gravity for indicator gravity
+    slider indicator margin is to set margin for indicator
+    slider indicator orientation is used to add orientation for slider
+    slider indicator padding is use to add padding to indicator
+    slider indicator selected color is use to specify selected color
+    and slider indicator unselected color is use to specify the color when the slider is unselected
+    slider scroll time in sec is used to specify scrolling time in seconds
+    -->
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorEnabled="true"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#fff"
+        app:sliderIndicatorUnselectedColor="#636363"
+        app:sliderScrollTimeInSec="1"
+        android:visibility="invisible"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#00fafafa"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="27dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00ffffff"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:backgroundTint="#343434"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="27dp">
+
+            <LinearLayout
+                android:id="@+id/RadioLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/time_senstivity"
+                    android:id="@+id/textView16"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#fff"
+                    />
+
+                <RadioGroup
+                    android:id="@+id/radiog1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView16"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3s"
+                        android:layout_weight="1"
+                        android:buttonTint="#fff"
+                        android:textColor="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2s"
+                        android:layout_weight="1"
+                        android:buttonTint="#fff"
+                        android:textColor="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="1s"
+                        android:buttonTint="#fff"
+                        android:layout_weight="1.3"
+                        android:textColor="#fff" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:backgroundTint="#f45657"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="27dp">
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#00ffffff">
+
+                <ImageView
+                    android:id="@+id/cameraButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingStart="190dp"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/drowsy_driving"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingTop="80dp"
+                android:clickable="false"
+                android:text="Monitor yourself"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="27dp"
+            android:backgroundTint="#35bcda">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#00ffffff">
+
+                <ImageView
+                    android:id="@+id/cameraButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingStart="190dp"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/front_car"
+                    android:textAlignment="textStart"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trafficsignLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor your driving"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:paddingTop="80dp"
+                android:textAlignment="textStart"
+                android:paddingStart="30dp"
+                />
+        </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

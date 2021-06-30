@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.example.callback.drowsiness.contactus">
+
+    <LinearLayout
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/l"
+            android:visibility="visible"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Contact Information"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/imageView3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corner_card"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:paddingTop="20dp"
+            android:text="Note: Please add atleast one contact number of a doctor or a hospital"
+            android:textColor="#FF0000"/>
+
+    <LinearLayout
+        android:layout_height="55dp"
+        android:layout_width="330dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/google_contacts"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/phonenum1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="Contact 1"
+            android:paddingTop="15dp"
+            android:textColorHint="#949393"
+            android:textAlignment="center"
+            android:backgroundTint="#f3f3f3"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="55dp"
+        android:layout_width="330dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/google_contacts"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/phonenum2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Contact 2"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:paddingTop="15dp"
+            android:textColorHint="#949393"
+            android:backgroundTint="#f3f3f3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="55dp"
+        android:layout_width="330dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/google_contacts"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/phonenum3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Contact 3"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:paddingTop="15dp"
+            android:textColorHint="#949393"
+            android:backgroundTint="#f3f3f3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="55dp"
+        android:layout_width="330dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/google_contacts"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/phonenum4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Contact 4"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColorHint="#949393"
+            android:textColor="#000000"
+            android:backgroundTint="#f3f3f3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_height="55dp"
+            android:layout_width="330dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@drawable/google_contacts"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/phonenum5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Contact 5"
+                android:paddingTop="15dp"
+                android:textColorHint="#949393"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:backgroundTint="#f3f3f3"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/simgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phonenum5"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:paddingTop="10dp">
+
+            <RadioButton
+                android:id="@+id/sim1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sim 1"
+                android:tag="0"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:buttonTint="#3e5fe6"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/sim2"
+                android:tag="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sim 2"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:buttonTint="#3e5fe6" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/simgroup"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:text="Save"
+            android:enabled="true"
+            android:clickable="true"
+            android:textColor="#fff"
+            android:background="@drawable/newgradient8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_phonnum_again"
+            android:text="Phone numbers are saved"
+            android:layout_below="@+id/save"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:textColor="#f1303f"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="#fff"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="27dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Enter long term disease if you have any (optional)"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:paddingLeft="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/diseaseText"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            />
+        <TextView
+            android:paddingTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Enter your Blood Group"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:paddingLeft="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/bloodgroup"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            />
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:layout_below="@+id/cardView"
+        android:id="@+id/addButton"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#fff"
+        android:layout_width="130dp"
+        android:text="ADD"
+        android:textAllCaps="false"
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/newgradient8"
+        />
+
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@id/cardView"
+        android:layout_marginTop="50dp">
+    </TextView>
+    <TextView
+        android:id="@+id/Displaytexthome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Nothing to display"
+        android:layout_below="@id/addButton"
+        android:layout_marginLeft="30dp">
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.callback.drowsiness.monitor_menu"
+    android:background="#3e5fe6">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/clouds">
+
+    </ImageView>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="123dp"
+            android:textColor="#fff"
+            android:text="o" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#fff"
+            android:text="C" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="38sp"
+            android:text="30.40"
+            android:id="@+id/temptext"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="32dp"
+            android:textColor="#fff"
+            />
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="47dp"
+                android:src="@drawable/temp"
+                android:layout_marginTop="32dp"
+                >
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="Sunrise:  "
+                android:id="@+id/sunrisetext"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="200dp"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="Sunset:  "
+                android:id="@+id/sunsettext"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/sunrisetext"
+                android:layout_marginLeft="200dp"
+                android:textColor="#fff"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/humidity"
+                android:id="@+id/humi"
+                android:layout_alignStart="@id/wind"
+                android:layout_marginLeft="-120dp"
+                android:layout_marginTop="110dp"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/humi"
+                android:layout_marginTop="2dp"
+                android:textColor="#fff"
+                android:id="@+id/humidtext"
+                android:layout_marginLeft="3dp"
+                android:layout_alignStart="@id/humi"
+                android:text="45 %"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/windsocket"
+                android:id="@+id/wind"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/wind"
+                android:layout_marginTop="2dp"
+                android:id="@+id/windtext"
+                android:textColor="#fff"
+                android:layout_marginLeft="-8dp"
+                android:layout_alignStart="@id/wind"
+                android:text="0.96 m/s"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/gauge"
+                android:id="@+id/pressure"
+                android:layout_alignLeft="@id/wind"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="110dp"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/pressure"
+                android:layout_marginTop="2dp"
+                android:id="@+id/pressuretext"
+                android:textColor="#fff"
+                android:layout_marginLeft="-8dp"
+                android:layout_alignStart="@id/pressure"
+                android:text="1010 atm"/>
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_height="900dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_corner_card">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="300dp"
+                android:id="@+id/card1"
+                android:background="#fff"
+                app:cardCornerRadius="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:elevation="40dp"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:id="@+id/RadioLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/time_senstivity"
+                        android:id="@+id/textView16"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/radiog1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView16"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:tag="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3s"
+                            android:layout_weight="1"
+                            android:buttonTint="#000"
+                            android:textColor="#000" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:tag="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2s"
+                            android:layout_weight="1"
+                            android:buttonTint="#000"
+                            android:textColor="#000" />
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:tag="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="1s"
+                            android:buttonTint="#000"
+                            android:layout_weight="1"
+                            android:textColor="#000" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="300dp"
+                android:id="@+id/card2"
+                android:background="@drawable/newgradient9"
+                app:cardCornerRadius="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:elevation="40dp"
+                android:layout_below="@id/card1"
+                android:clickable="true"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:id="@+id/card2layout"
+                    android:background="@drawable/newgradient9"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Monitor Yourself"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:background="@drawable/newgradient8">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/drowsy_driving_2"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            >
+
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="300dp"
+                android:id="@+id/card3"
+                android:background="#fff"
+                android:layout_below="@id/card2"
+                app:cardCornerRadius="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:elevation="40dp"
+                android:clickable="true"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:id="@+id/card3layout"
+                    android:background="@drawable/newgradient9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Monitor Driving"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="@drawable/newgradient8">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/stopsign"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            >
+
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    
+</RelativeLayout>

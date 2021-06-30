@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.androdocs:Simple-HTTP-Request:v1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d38c896df86c011bac171c1cb1219d1/jetified-Simple-HTTP-Request-v1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d38c896df86c011bac171c1cb1219d1/jetified-Simple-HTTP-Request-v1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d38c896df86c011bac171c1cb1219d1/jetified-Simple-HTTP-Request-v1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.androdocs/Simple-HTTP-Request/v1.0/1519704599232dac43aa9d06773bf4e4ecf53b8/Simple-HTTP-Request-v1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

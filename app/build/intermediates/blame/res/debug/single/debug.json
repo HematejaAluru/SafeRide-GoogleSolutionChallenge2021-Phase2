@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bordergradient.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\bordergradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_help.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner_card_monitor_menu2.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\rounded_corner_card_monitor_menu2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_gradient.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\card_gradient.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drowsy_driving_2.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\drowsy_driving_2.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_remove.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient7.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient7.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stopsign.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\stopsign.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_blank.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient6.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient6.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_format_list_bulleted_24.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_format_list_bulleted_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pressuregauge.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\pressuregauge.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_windsocket.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\windsocket.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_monitor_menu.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_monitor_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_sheet_bg.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\bottom_sheet_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_humidity.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\humidity.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_screen.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_help.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tfe_od_activity_camera.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\tfe_od_activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help_screen2.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\help_screen2.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_landscape.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\landscape.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\anim_top_anim.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\anim\\top_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contactus.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_contactus.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_help.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\menu\\menu_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_page_2.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\fragment_page_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_slider_layout.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\slider_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient9.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient9.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_gradient_card.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\radio_gradient_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_temp.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\temp.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient4.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient4.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help_screen5.jpg.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\help_screen5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\l.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mybutton.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\mybutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l2.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\l2.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_sim_card_24.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_sim_card_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_front_car.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\front_car.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner_card.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\rounded_corner_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dialog_alert.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_dialog_alert.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_additional_details.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_additional_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\fragment_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_help_24.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_help_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient3.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient3.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_monitor_menu_4.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_monitor_menu_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clouds.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\clouds.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tfe_od_layout_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\tfe_od_layout_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tfe_od_camera_connection_fragment_tracking.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\tfe_od_camera_connection_fragment_tracking.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner_gradient.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\rounded_corner_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_page_3.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\fragment_page_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drowsy_driving.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\drowsy_driving.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_google_contacts.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\google_contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_horiz_24.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_more_horiz_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_long_term_disease.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\long_term_disease.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_send_custom.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-v21\\ic_menu_send_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help_screen3.jpg.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\help_screen3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_center_focus_strong_24.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_center_focus_strong_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_help.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-mdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_anim.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\anim\\bottom_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_help.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-hdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icn_chevron_down.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\icn_chevron_down.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient5.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient5.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icn_chevron_up.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\icn_chevron_up.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_portrait.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\portrait.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient2.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gauge.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\gauge.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help_screen4.jpg.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\help_screen4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help_screen1.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\help_screen1.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\raw_alarm.mp3.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\raw\\alarm.mp3"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_phone_24.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_page_1.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\fragment_page_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newgradient8.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\newgradient8.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner_card_monitor_menu1.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\drawable\\rounded_corner_card_monitor_menu1.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_end.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\activity_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_page_4.xml.flat",
+        "source": "C:\\Users\\User1\\Desktop\\TESTING UPLOAD PHASE2\\SafeRide-SolutionChallenge2021-Phase2-main\\app\\src\\main\\res\\layout\\fragment_page_4.xml"
+    }
+]

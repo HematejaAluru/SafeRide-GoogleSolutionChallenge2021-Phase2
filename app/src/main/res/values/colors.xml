@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tfe_color_primary">#3e5fe6</color>
+    <color name="tfe_color_primary_dark">#3e5fe6</color>
+    <color name="tfe_color_accent">#3e5fe6</color>
+
+    <color name="tfe_semi_transparent">#3e5fe6</color>
+
+    <color name="colorPrimaryDark">#3e5fe6</color> <!-- [ CYAN - 700 ] -->
+    <color name="colorPrimary">#3e5fe6</color> <!-- [ CYAN - 500 ] -->
+    <color name="colorPrimaryLight">#3e5fe6</color> <!-- [ LIGHT BLUE - 100 ] -->
+    <color name="colorAccent">#3e5fe6</color> <!-- [ DEEP PURPLE - A200 ] -->
+
+    <color name="textColorPrimary">#3e5fe6</color>
+    <color name="textColorSecondary">#3e5fe6</color>
+
+    <color name="text">#3e5fe6</color>
+    <color name="icons">#3e5fe6</color>
+    <color name="divider">#3e5fe6</color>
+
+    <color name="colorControlNormal">@color/textColorSecondary</color>
+    <color name="colorControlActivated">@color/colorAccent</color>
+    <color name="colorControlHighlight">@color/divider</color>
+
+    <color name="colorButtonNormal">#3e5fe6</color>
+    <color name="colorSwitchThumbNormal">#3e5fe6</color>
+    <color name="navigationBarColor">#3e5fe6</color>
+
+
+    <color name="windowBackground">#3e5fe6</color>
+    <color name="lightBackground">#3e5fe6</color>
+    <color name="darkBackground">#3e5fe6</color>
+    <color name="drawerBackground">#3e5fe6</color>
+    <color name="rowBackground">#3e5fe6</color>
+
+</resources>

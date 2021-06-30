@@ -1,0 +1,458 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.solution.avnmht.solution"
+4    android:versionCode="5"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+7-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="22"
+8-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="30" />
+9-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:8:5-81
+11-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:8:22-78
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:9:5-60
+13-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:9:19-57
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:10:5-65
+15-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:10:22-62
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:12:5-67
+17-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:13:5-66
+18-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+19-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:14:5-77
+19-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:15:5-75
+20-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:15:22-72
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:16:5-85
+21-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:16:22-82
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:17:5-79
+22-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:18:5-97
+23-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:18:22-78
+24
+25    <!-- Optional permission for Analytics to run. -->
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+26-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:24:5-67
+26-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.android.gms:play-services-gcm:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\f2d33a9d49eb8c94fe8c36371033a888\jetified-play-services-gcm-11.6.0\AndroidManifest.xml:20:5-81
+27-->[com.google.android.gms:play-services-gcm:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\f2d33a9d49eb8c94fe8c36371033a888\jetified-play-services-gcm-11.6.0\AndroidManifest.xml:20:22-79
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\0903466b57f18fb0e08797d4cadeed93\jetified-play-services-maps-11.6.0\AndroidManifest.xml:21:5-77
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\0903466b57f18fb0e08797d4cadeed93\jetified-play-services-maps-11.6.0\AndroidManifest.xml:21:19-51
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\0903466b57f18fb0e08797d4cadeed93\jetified-play-services-maps-11.6.0\AndroidManifest.xml:21:52-75
+32
+33    <permission
+33-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:25:5-109
+34        android:name="com.solution.avnmht.solution.permission.C2D_MESSAGE"
+34-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:25:17-71
+35        android:protectionLevel="signature" />
+35-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:25:72-107
+36
+37    <uses-permission android:name="com.solution.avnmht.solution.permission.C2D_MESSAGE" />
+37-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:27:5-78
+37-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:27:22-76
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39
+40    <application
+40-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:19:5-77:19
+41        android:name="androidx.multidex.MultiDexApplication"
+41-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:23:9-61
+42        android:allowBackup="true"
+42-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:21:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.5.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\d15395f73d54142e8196b1854202aadf\core-1.5.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@drawable/l"
+45-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:24:9-35
+46        android:label="@string/app_name"
+46-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:25:9-41
+47        android:largeHeap="true"
+47-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:22:9-33
+48        android:supportsRtl="true"
+48-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:26:9-35
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme" >
+50-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:27:9-40
+51        <activity android:name="com.example.callback.drowsiness.Splash_screen" >
+51-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:28:9-33:20
+51-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:28:19-48
+52            <intent-filter>
+52-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:29:13-32:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:30:17-68
+53-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:30:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:31:17-76
+55-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:31:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:34:9-36:52
+59            android:name="com.example.callback.drowsiness.FaceTrackerActivity"
+59-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:35:13-79
+60            android:screenOrientation="portrait" />
+60-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:36:13-49
+61        <activity
+61-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:37:9-39:52
+62            android:name="com.example.callback.drowsiness.help"
+62-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:38:13-64
+63            android:screenOrientation="portrait" />
+63-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:39:13-49
+64        <activity
+64-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:40:9-42:52
+65            android:name="com.example.callback.drowsiness.AdditionalDetails"
+65-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:41:13-77
+66            android:screenOrientation="portrait" />
+66-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:42:13-49
+67        <activity
+67-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:43:9-50:20
+68            android:name="com.example.callback.drowsiness.MainActivity"
+68-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:44:13-72
+69            android:configChanges="orientation"
+69-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:47:13-48
+70            android:label="@string/app_name"
+70-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:45:13-45
+71            android:screenOrientation="portrait"
+71-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:48:13-49
+72            android:theme="@style/AppTheme.NoActionBar" >
+72-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:46:13-56
+73        </activity>
+74        <activity
+74-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:51:9-54:15
+75            android:name="com.example.callback.drowsiness.monitor_menu"
+75-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:52:13-72
+76            android:screenOrientation="portrait" />
+76-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:53:13-49
+77        <activity
+77-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:55:9-56:51
+78            android:name="com.example.callback.drowsiness.end"
+78-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:55:19-69
+79            android:screenOrientation="portrait" />
+79-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:56:13-49
+80        <activity
+80-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:57:9-58:51
+81            android:name="com.example.callback.drowsiness.contactus"
+81-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:57:19-75
+82            android:screenOrientation="portrait" />
+82-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:58:13-49
+83        <activity
+83-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:59:9-60:51
+84            android:name="com.example.callback.drowsiness.SensorActivity"
+84-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:59:19-80
+85            android:screenOrientation="portrait" />
+85-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:60:13-49
+86        <activity
+86-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:61:9-65:25
+87            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
+87-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:61:19-89
+88            android:screenOrientation="portrait"
+88-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:63:13-49
+89            android:theme="@style/AppTheme.NoActionBar" >
+89-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:62:13-56
+90            >
+91        </activity>
+92        <activity
+92-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:66:9-67:51
+93            android:name="com.example.callback.drowsiness.LongTermDisease"
+93-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:66:19-81
+94            android:screenOrientation="portrait" />
+94-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:67:13-49
+95        <activity
+95-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:68:9-71:25
+96            android:name="org.tensorflow.lite.examples.detection.CameraActivity"
+96-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:68:19-87
+97            android:screenOrientation="portrait"
+97-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:70:13-49
+98            android:theme="@style/Theme.AppCompat.NoActionBar" />
+98-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:69:13-63
+99        <activity
+99-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:72:9-75:25
+100            android:name="com.example.callback.drowsiness.Settings"
+100-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:72:19-74
+101            android:screenOrientation="portrait"
+101-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:74:13-49
+102            android:theme="@style/Theme.AppCompat.NoActionBar" />
+102-->C:\Users\User1\Desktop\TESTING UPLOAD PHASE2\SafeRide-SolutionChallenge2021-Phase2-main\app\src\main\AndroidManifest.xml:73:13-63
+103
+104        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+105        <activity
+105-->[com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a0c0c44e7bcb6770e28d2e34d46f8ba5\jetified-play-services-ads-lite-11.6.0\AndroidManifest.xml:25:9-257
+106            android:name="com.google.android.gms.ads.AdActivity"
+106-->[com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a0c0c44e7bcb6770e28d2e34d46f8ba5\jetified-play-services-ads-lite-11.6.0\AndroidManifest.xml:25:19-71
+107            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+107-->[com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a0c0c44e7bcb6770e28d2e34d46f8ba5\jetified-play-services-ads-lite-11.6.0\AndroidManifest.xml:25:72-181
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a0c0c44e7bcb6770e28d2e34d46f8ba5\jetified-play-services-ads-lite-11.6.0\AndroidManifest.xml:25:231-255
+109            android:theme="@android:style/Theme.Translucent" />
+109-->[com.google.android.gms:play-services-ads-lite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a0c0c44e7bcb6770e28d2e34d46f8ba5\jetified-play-services-ads-lite-11.6.0\AndroidManifest.xml:25:182-230
+110
+111        <receiver
+111-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:27:9-28:20
+112            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+112-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:27:19-84
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:27:85-107
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:27:108-132
+115        </receiver>
+116
+117        <service
+117-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:29:9-132
+118            android:name="com.google.android.gms.analytics.AnalyticsService"
+118-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:29:18-82
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:29:83-105
+120            android:exported="false" />
+120-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:29:106-130
+121        <service
+121-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:30:9-192
+122            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+122-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:30:18-85
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:30:143-165
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:30:166-190
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[com.google.android.gms:play-services-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\ffba31da85fc48d7dd007b9112f53961\jetified-play-services-analytics-11.6.0\AndroidManifest.xml:30:86-142
+126
+127        <activity
+127-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:20:9-25:20
+128            android:name="com.google.android.gms.appinvite.PreviewActivity"
+128-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:20:19-50
+129            android:exported="true"
+129-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:20:51-74
+130            android:theme="@style/Theme.AppInvite.Preview" >
+130-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:20:75-121
+131            <intent-filter>
+131-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:21:13-24:29
+132                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+132-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:22:17-89
+132-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:22:25-87
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:23:17-75
+134-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:23:27-73
+135            </intent-filter>
+136        </activity>
+137        <activity
+137-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:20:9-189
+138            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+138-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:20:19-68
+139            android:excludeFromRecents="true"
+139-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:20:129-162
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:20:163-187
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:20:69-128
+142        <!--
+143Service handling Google Sign-In user revocation. For apps that do not integrate with
+144            Google Sign-In, this service will never be started.
+145        -->
+146        <service
+146-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:24:9-184
+147            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+147-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:24:18-63
+148            android:exported="true"
+148-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:24:64-87
+149            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+149-->[com.google.android.gms:play-services-auth:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\5688a1e3fa5bf6e576e5103427be7a77\jetified-play-services-auth-11.6.0\AndroidManifest.xml:24:88-182
+150
+151        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+151-->[com.google.android.gms:play-services-cast-framework:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\112e82787a6c714c8995ab1d33d9dce3\jetified-play-services-cast-framework-11.6.0\AndroidManifest.xml:5:9-99
+151-->[com.google.android.gms:play-services-cast-framework:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\112e82787a6c714c8995ab1d33d9dce3\jetified-play-services-cast-framework-11.6.0\AndroidManifest.xml:5:19-97
+152
+153        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+153-->[com.google.android.gms:play-services-cast-framework:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\112e82787a6c714c8995ab1d33d9dce3\jetified-play-services-cast-framework-11.6.0\AndroidManifest.xml:6:9-103
+153-->[com.google.android.gms:play-services-cast-framework:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\112e82787a6c714c8995ab1d33d9dce3\jetified-play-services-cast-framework-11.6.0\AndroidManifest.xml:6:18-101
+154        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+154-->[com.google.android.gms:play-services-cast-framework:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\112e82787a6c714c8995ab1d33d9dce3\jetified-play-services-cast-framework-11.6.0\AndroidManifest.xml:7:9-92
+154-->[com.google.android.gms:play-services-cast-framework:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\112e82787a6c714c8995ab1d33d9dce3\jetified-play-services-cast-framework-11.6.0\AndroidManifest.xml:7:18-90
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\aac32cad8fb3c908343e3c4bc96c94cb\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:9-172
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\aac32cad8fb3c908343e3c4bc96c94cb\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:19-85
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\aac32cad8fb3c908343e3c4bc96c94cb\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:146-170
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\aac32cad8fb3c908343e3c4bc96c94cb\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:86-145
+160        <!--
+161 FirebaseMessagingService performs security checks at runtime,
+162             no need for explicit permissions despite exported="true"
+163        -->
+164        <service
+164-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:23:9-27:19
+165            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+165-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:23:18-87
+166            android:exported="true" >
+166-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:23:88-111
+167            <intent-filter android:priority="-500" >
+167-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:24:13-26:29
+167-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:24:28-51
+168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+168-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:25:17-77
+168-->[com.google.firebase:firebase-messaging:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7063eceef08395ffa7a67889cc10049b\jetified-firebase-messaging-11.6.0\AndroidManifest.xml:25:25-75
+169            </intent-filter>
+170        </service>
+171        <service
+171-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:24:9-134
+172            android:name="com.google.android.gms.tagmanager.TagManagerService"
+172-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:24:18-84
+173            android:enabled="true"
+173-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:24:110-132
+174            android:exported="false" />
+174-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:24:85-109
+175
+176        <activity
+176-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:25:9-32:20
+177            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+177-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:25:19-93
+178            android:exported="true"
+178-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:25:94-117
+179            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+179-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:25:118-142
+180            <intent-filter>
+180-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:26:13-31:29
+181                <data android:scheme="tagmanager.c.com.solution.avnmht.solution" />
+181-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:27:17-71
+181-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:27:23-69
+182
+183                <action android:name="android.intent.action.VIEW" />
+183-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:28:17-68
+183-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:28:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:23:17-75
+185-->[com.google.android.gms:play-services-appinvite:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\24229d8713c5206f451fca47cecfa90c\jetified-play-services-appinvite-11.6.0\AndroidManifest.xml:23:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:30:17-77
+186-->[com.google.android.gms:play-services-tagmanager-api:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\13bd1ab608734fe1694ec1023c869a23\jetified-play-services-tagmanager-api-11.6.0\AndroidManifest.xml:30:27-75
+187            </intent-filter>
+188        </activity>
+189
+190        <receiver
+190-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:25:7-26:18
+191            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+191-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:25:17-89
+192            android:enabled="true"
+192-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:25:90-112
+193            android:exported="false" >
+193-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:25:113-137
+194        </receiver>
+195        <receiver
+195-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:27:7-31:18
+196            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+196-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:27:17-104
+197            android:enabled="true"
+197-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:27:162-184
+198            android:exported="true"
+198-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:27:185-208
+199            android:permission="android.permission.INSTALL_PACKAGES" >
+199-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:27:105-161
+200            <intent-filter>
+200-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:28:11-30:27
+201                <action android:name="com.android.vending.INSTALL_REFERRER" />
+201-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:29:15-76
+201-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:29:23-74
+202            </intent-filter>
+203        </receiver>
+204
+205        <service
+205-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:32:7-137
+206            android:name="com.google.android.gms.measurement.AppMeasurementService"
+206-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:32:16-87
+207            android:enabled="true"
+207-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:32:88-110
+208            android:exported="false" />
+208-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:32:111-135
+209        <service
+209-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:33:7-197
+210            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+210-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:33:16-90
+211            android:enabled="true"
+211-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:33:148-170
+212            android:exported="false"
+212-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:33:171-195
+213            android:permission="android.permission.BIND_JOB_SERVICE" />
+213-->[com.google.firebase:firebase-analytics:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\3e7863e6194941efa8ca638e256b8554\jetified-firebase-analytics-11.6.0\AndroidManifest.xml:33:91-147
+214
+215        <receiver
+215-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:31:9-36:20
+216            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+216-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:31:19-84
+217            android:exported="true"
+217-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:31:85-108
+218            android:permission="com.google.android.c2dm.permission.SEND" >
+218-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:31:109-169
+219            <intent-filter>
+219-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:32:13-35:29
+220                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+220-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:33:17-80
+220-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:33:25-78
+221
+222                <category android:name="com.solution.avnmht.solution" />
+222-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:34:17-60
+222-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:34:27-58
+223            </intent-filter>
+224        </receiver>
+225        <!--
+226 FirebaseInstanceIdService performs security checks at runtime,
+227             no need for explicit permissions despite exported="true"
+228        -->
+229        <service
+229-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:40:9-44:19
+230            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+230-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:40:18-82
+231            android:exported="true" >
+231-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:40:83-106
+232            <intent-filter android:priority="-500" >
+232-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:41:13-43:29
+232-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:41:28-51
+233                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+233-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:42:17-79
+233-->[com.google.firebase:firebase-iid:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\7eab89a359ba0087c40eb5434047df9e\jetified-firebase-iid-11.6.0\AndroidManifest.xml:42:25-77
+234            </intent-filter>
+235        </service>
+236
+237        <provider
+237-->[com.google.firebase:firebase-common:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\4f4e8627b1151b735174215713294347\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:9-194
+238            android:name="com.google.firebase.provider.FirebaseInitProvider"
+238-->[com.google.firebase:firebase-common:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\4f4e8627b1151b735174215713294347\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:79-143
+239            android:authorities="com.solution.avnmht.solution.firebaseinitprovider"
+239-->[com.google.firebase:firebase-common:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\4f4e8627b1151b735174215713294347\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:19-78
+240            android:exported="false"
+240-->[com.google.firebase:firebase-common:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\4f4e8627b1151b735174215713294347\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:144-168
+241            android:initOrder="100" />
+241-->[com.google.firebase:firebase-common:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\4f4e8627b1151b735174215713294347\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:169-192
+242
+243        <meta-data
+243-->[com.google.android.gms:play-services-basement:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a3b1003d2db943bfbf4f87d2c81fb239\jetified-play-services-basement-11.6.0\AndroidManifest.xml:20:9-121
+244            android:name="com.google.android.gms.version"
+244-->[com.google.android.gms:play-services-basement:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a3b1003d2db943bfbf4f87d2c81fb239\jetified-play-services-basement-11.6.0\AndroidManifest.xml:20:20-65
+245            android:value="@integer/google_play_services_version" />
+245-->[com.google.android.gms:play-services-basement:11.6.0] C:\Users\User1\.gradle\caches\transforms-2\files-2.1\a3b1003d2db943bfbf4f87d2c81fb239\jetified-play-services-basement-11.6.0\AndroidManifest.xml:20:66-119
+246    </application>
+247
+248</manifest>

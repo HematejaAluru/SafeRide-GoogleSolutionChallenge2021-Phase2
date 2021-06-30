@@ -1,0 +1,44 @@
+Pedestrian
+Left Sharp Curve
+Right Sharp Curve
+No Over Taking
+Turn Left
+Turn Right
+Speed Limit 70
+Speed Limit 50
+Speed Limit 30
+Speed Limit 20
+Speed Limit 60
+No Waiting
+Road Work
+TrafficSign
+Snow Warning Sign
+Slippery Road
+Give Way
+RoundAbout
+No Stopping
+Go Straight
+Danger Ahead
+Go Right or Straight
+Go Left or Straight
+End of Right Road (Go straight)
+Stop
+Right Curve Ahead
+Left Curve Ahead
+Cycle Zone
+Speed Limit 80
+Speed Limit 120
+No Over Taking Trucks
+Truck Sign
+No Entry
+Traffic Signals Ahead
+Speed Limit 100
+End of Left Road (Go straight)
+Deer Zone
+Huddle Road
+No Truck Sign
+Car
+human
+GreenSignal
+RedSignal
+YellowSignal

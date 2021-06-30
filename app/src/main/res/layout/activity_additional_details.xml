@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="270dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Mean Value:"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:id="@+id/amv"
+        android:textColor="#000"
+        />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/card1">
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart1"
+                android:layout_width="368dp"
+                android:layout_height="200dp"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="8dp" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="270dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gyroscope Mean Value: "
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:id="@+id/gmv"
+                android:textColor="#000"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/card2"
+                android:layout_below="@id/card1"
+                android:layout_marginTop="10dp"
+                android:layout_alignStart="@id/card1"
+                android:layout_alignEnd="@id/card1">
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart2"
+                    android:layout_width="368dp"
+                    android:layout_height="200dp"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:layout_editor_absoluteX="8dp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:text="Please Turn on Location for latitude"
+        android:textColor="#000" />
+    </LinearLayout>
+        </LinearLayout>
+
+
+</RelativeLayout>
